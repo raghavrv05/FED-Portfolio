@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FED-Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        padding-top: 80px;
+        background-color: #00203FFF;
+        color: white;
+        font-size: 19px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    nav {
+        position: fixed;
+        display: flex;
+        width: -webkit-fill-available;
+        justify-content: space-around;
+        align-items: center;
+        height: 70px;
+        background-color: mediumaquamarine;
+        top: 0;
+
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul li {
+        list-style: none;
+        margin: 0 20px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: black;
+    }
+
+    nav ul li a:hover {
+        color: rgb(164, 81, 21)
+    }
+
+    .left {
+        font-size: 1.5rem;
+        color: black;
+
+    }
+
+    .right {
+        color: black;
+    }
+
+    .firstSection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 140px 0;
+
+    }
+
+    .firstSection>div {
+        width: 30%;
+    }
+
+    .leftSection {
+        font-size: 2rem;
+        margin-top: -200px;
+    }
+
+    .leftSection .buttons {
+        padding: 30px 0;
+    }
+
+    .leftSection .btn {
+        background-color: #00203FFF;
+        font-size: 20px;
+        padding: 10px;
+        border: 3px solid aquamarine;
+        color: aquamarine;
+        border-radius: 7px;
+        cursor: pointer;
+    }
+
+    .rightSection img {
+        width: 80%;
+        /* margin: -70px -50px; */
+    }
+
+
+    .secondSection {
+        max-width: 80vw;
+        margin: auto;
+        height: 100vh;
+    }
+
+    .secondSection h1 {
+        font-size: x-large;
+        scroll-margin-top: 11rem;
+    }
+
+    main hr {
+        border: 0;
+        background-color: aquamarine;
+        height: 1px;
+        margin: 40px 80px;
+
+    }
+
+    .text-gray {
+        color: aquamarine;
+        margin: 25px 0;
+    }
+
+    .box {
+        display: flex;
+        width: 80vw;
+        background-color: white;
+        height: 1px;
+        margin: 40px 0;
+        justify-content: space-around;
+
+    }
+
+    .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+    }
+
+    .vert-desc {
+        margin-left: -84px;
+        margin-top: 95px;
+        width: 229px;
+
+    }
+
+    .thirdSection {
+        max-width: 80vw;
+        margin: auto;
+        height: 100vh;
+    }
+
+    .thirdSection h1 {
+        font-size: x-large;
+        scroll-margin-top: 11rem;
+        margin-bottom: 50px;
+
+    }
+
+    .thirdSection img {
+        width: 200px;
+    }
+
+    .thirdSection .allign {
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .thirdSection p {
+        color: rgb(164, 81, 21);
+        font-weight: bold;
+        padding-left: 20px;
+    }
+
+    .thirdSection .Contact {
+        display: flex;
+
+    }
+
+    .fourthSection {
+        max-width: 80vw;
+        margin: auto;
+        height: 100vh;
+    }
+
+    .fourthSection h1 {
+        font-size: x-large;
+        scroll-margin-top: 11rem;
+        margin-bottom: 50px;
+
+    }
+
+    .fourthSection .proj {
+        padding: 10px 0;
+    }
+
+    .fourthSection .proj .heading {
+        color: aquamarine;
+    }
+</style>
+
+<body>
+    <header>
+        <nav>
+            <div class="left" style="">Raghavendra's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="#About Me">About Me</a></li>
+
+                    <li><a href="#Projects  ">Projects</a></li>
+                    <li><a href="#Contact Me">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi my name is <span style="color: aquamarine;">Raghavendra</span>
+                <div>
+                    and i am a
+                </div>
+                <span id="element" style="color: aquamarine;"></span>
+
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="bg3.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <h1 id="About Me">About Me</h1>
+            <div class="text-gray">My education so far</div>
+            <div class="box">
+                <div class="vertical">
+                    <div class="vert-desc">
+                        <div>Primary Education (2018)</div>
+                        <div style="font-size:medium;">-Vasavi High School</div>
+                        <div style="font-size:medium;">-CGPA:9.5</div>
+
+                    </div>
+                </div>
+                <div class="vertical">
+                    <div class="vert-desc">
+
+                        <div>Secondary Education (2018-2020)</div>
+                        <div style="font-size:medium;">-SR Junior College</div>
+                        <div style="font-size:medium;">-CGPA:9.5</div>
+                    </div>
+                </div>
+                <div class="vertical">
+                    <div class="vert-desc">
+
+                        <div>B.Tech (2020-2024)</div>
+                        <div style="font-size:medium;">-Anurag University</div>
+                        <div style="font-size:medium;">-CGPA:8.62</div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <hr>
+        <section class="fourthSection">
+            <h1 id="Projects">Projects</h1>
+            <div class="proj">
+                <div class="heading">Project1</div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi,
+                deserunt autem officia facere nobis placeat rem in obcaecati, necessitatibus ab perferendis voluptas
+                praesentium, numquam aliquid eius! Suscipit in ea labore?
+            </div>
+            <div class="proj">
+                <div class="heading">Project2</div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi,
+                deserunt autem officia facere nobis placeat rem in obcaecati, necessitatibus ab perferendis voluptas
+                praesentium, numquam aliquid eius! Suscipit in ea labore?
+            </div>
+
+            </div>
+            <div class="proj">
+                <div class="heading">Project3</div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi,
+                deserunt autem officia facere nobis placeat rem in obcaecati, necessitatibus ab perferendis voluptas
+                praesentium, numquam aliquid eius! Suscipit in ea labore?
+            </div>
+
+            </div>
+
+
+        </section>
+        <hr>
+        <section class="thirdSection">
+            <h1 id="Contact Me">Contact Me</h1>
+
+            <div class="allign">
+                <img style="width: 4%;" src="phone-call.png" alt="">
+                <p>8985631696</p>
+            </div>
+            <div class="allign">
+                <img style="width: 4%;" src="email.png" alt="">
+                <p>raghavendra2003@gmail.com</p>
+            </div>
+            <div class="allign">
+                <img style="width: 4%;" src="linkedin.png" alt="">
+                <a href="https://www.linkedin.com/in/raghavendra-mitte-8a7424187/">
+                    <p>linkedin</p>
+                </a>
+            </div>
+
+
+
+        </section>
+
+
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', ' Software Engineer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
